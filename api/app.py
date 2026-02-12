@@ -18,7 +18,7 @@ pipeline = joblib.load(MODEL_PATH)
 @app.get("/")
 def home():
     return {
-        "message": "Fraud detection API is running"
+        "message": "Churn detection API is running"
     }
 
 @app.get("/health")
