@@ -7,8 +7,8 @@ from api.schema import Customer
 from src.config import MODEL_PATH
 
 app = FastAPI(
-    title="Fraud Detection API",
-    description="API for detecting fraudulent transactions using a pre-trained model.",
+    title="Churn Detection API",
+    description="API for detecting customer churn using a pre-trained model.",
     version="1.0.0"
 )
 
@@ -42,6 +42,6 @@ def predict(customer: Customer):
     pred = predict_with_threshold(pipeline, X)
     
     return {
-        "Fraud_probability": float(proba[0]),
+        "Churn_probability": float(proba[0]),
         "Prediction": int(pred[0])
     }
