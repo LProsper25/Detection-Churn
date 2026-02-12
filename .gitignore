@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+Env/
+.env
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebook/
+
+# Environment
+env/
+
+# Data files
+data/
+*.csv
+*.json
+
+# Model files
+model/
+*.joblib
+*.pkl
+*.h5
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+*.env
+.env.local
+config.json
+credentials.json
