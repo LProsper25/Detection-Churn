@@ -204,7 +204,7 @@ Ce modèle peut être utilisé pour :
 ## 12. Comment exécuter le projet
 
 ### 12.1 Cloner le repo
-git clone <repo_url>
+git clone (https://github.com/LProsper25/detection_churn.git)
 cd detection_churn
 
 ### 12.2 Installer les dépendances
